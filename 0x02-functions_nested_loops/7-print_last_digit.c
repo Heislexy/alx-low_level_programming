@@ -10,6 +10,15 @@ int print_last_digit(int i)
 {
 	int lst = i % 10;
 
-	_putchar(lst);
-	return (lst);
+/**
+ * if (lst < 0)
+	{
+		_putchar(-lst + 48);
+		return (-lst);
+	}
+	else
+	{
+*/		_putchar(lst + 48);
+		return (lst);
+
 }
