@@ -19,4 +19,5 @@ int print_last_digit(int i)
 	{
 		_putchar(lst + 48);
 		return (lst);
+	}
 }
